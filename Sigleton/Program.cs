@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var instance_1 = Singleton.GetInstance();
+            var instance_2 = Singleton.GetInstance();
+
+            var compareResult = ReferenceEquals(instance_1, instance_2);
+            Console.WriteLine(compareResult);
         }
     }
 }
