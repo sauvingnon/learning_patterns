@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace Builder.Directors
 {
+    /// <summary>
+    /// Распорядитель - создает объект, используя объекты Builder
+    /// </summary>
     public class Director
     {
         private IDeveloper developer;
@@ -16,12 +19,19 @@ namespace Builder.Directors
 
         public void SetDeveloper(IDeveloper developer) => this.developer = developer;
 
+        /// <summary>
+        /// Создание только корпуса телефона
+        /// </summary>
         public Phone MountOnlyPhone()
         {
             developer.CreateBox();
             developer.CreateDisplay();
             return developer.GetPhone();
         }
+        /// <summary>
+        /// Создание полноценного телефона
+        /// </summary>
+        /// <returns></returns>
         public Phone MountFullPhone()
         {
             developer.CreateBox();

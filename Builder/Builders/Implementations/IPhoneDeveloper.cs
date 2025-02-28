@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 
 namespace Builder.Builders.Implementations
 {
+    /// <summary>
+    /// Конкретная реализация Builder'а.
+    /// Создает объект Phone и определяет интерфейс для доступа к нему
+    /// </summary>
     public class IPhoneDeveloper : IDeveloper
     {
         private Phone phone;
