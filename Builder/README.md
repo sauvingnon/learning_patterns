@@ -23,7 +23,7 @@
 
 
 ## Формальное определение
-```
+```csharp
 class Client
 {
     void Main()
