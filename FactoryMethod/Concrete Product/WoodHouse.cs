@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod.Concrete_Product
 {
+    /// <summary>
+    /// Конкретный класс ConcreteProductB
+    /// представляет реализацию класса Product.
+    /// Таких классов может быть множество
+    /// </summary>
     public class WoodHouse : House
     {
         public WoodHouse()
