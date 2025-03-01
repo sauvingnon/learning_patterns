@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigleton", "Sigleton\Sigleton.csproj", "{D9B560EA-8C8A-4077-8CB6-35056852922E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sigleton", "Sigleton\Sigleton.csproj", "{D9B560EA-8C8A-4077-8CB6-35056852922E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{C4B1928E-0EB6-4706-80C7-6A4382BCCE2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{C4B1928E-0EB6-4706-80C7-6A4382BCCE2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{A7096DC5-4156-43D3-98A1-8CAABE2545DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C4B1928E-0EB6-4706-80C7-6A4382BCCE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4B1928E-0EB6-4706-80C7-6A4382BCCE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4B1928E-0EB6-4706-80C7-6A4382BCCE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7096DC5-4156-43D3-98A1-8CAABE2545DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7096DC5-4156-43D3-98A1-8CAABE2545DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7096DC5-4156-43D3-98A1-8CAABE2545DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7096DC5-4156-43D3-98A1-8CAABE2545DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
