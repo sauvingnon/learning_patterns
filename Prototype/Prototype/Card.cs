@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Prototype.Prototype
+{
+    public abstract class Card
+    {
+        public abstract string? Name { get; }
+        public abstract int Points { get; }
+
+        public abstract Card Clone();
+    }
+}
