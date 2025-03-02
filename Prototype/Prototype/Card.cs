@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Prototype.Prototype
 {
+    /// <summary>
+    /// Определяет интерфейс для клонирования самого себя,
+    /// который, как правило, представляет метод Clone()
+    /// </summary>
     public abstract class Card
     {
         public abstract string? Name { get; }

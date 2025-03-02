@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace Prototype.ConcretePrototype
 {
+    /// <summary>
+    /// Конкретная реализация прототипа.
+    /// Реализует метод Clone()
+    /// </summary>
     public class OldMasterCard : Card
     {
         public override string? Name => "Старый мудрец";
