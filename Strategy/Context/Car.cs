@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace Strategy.Context
 {
+    /// <summary>
+    /// Context хранит ссылку на объект IStrategy
+    /// и связан с интерфейсом IStrategy отношением агрегации.
+    /// </summary>
     public class Car
     {
         protected int passengers; // кол-во пассажиров
