@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prot
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{F6D3E11A-C049-4646-A0B7-F8AD435E26F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{BB64703A-CF2F-49C4-B266-B61135B1A33B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{BB64703A-CF2F-49C4-B266-B61135B1A33B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{D0CFF05A-18AC-491F-85E9-45EFA218A379}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{BB64703A-CF2F-49C4-B266-B61135B1A33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB64703A-CF2F-49C4-B266-B61135B1A33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB64703A-CF2F-49C4-B266-B61135B1A33B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0CFF05A-18AC-491F-85E9-45EFA218A379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CFF05A-18AC-491F-85E9-45EFA218A379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CFF05A-18AC-491F-85E9-45EFA218A379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CFF05A-18AC-491F-85E9-45EFA218A379}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
